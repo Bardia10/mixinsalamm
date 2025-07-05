@@ -178,7 +178,7 @@ function CredentialsPage() {
     console.log('Message listener added');
 
     // Open Basalam SSO in new tab
-    const basalamUrl = 'https://basalam.com/accounts/sso?client_id=1083&scope=vendor.profile.read%20vendor.product.write%20customer.profile.read%20vendor.product.read&redirect_uri=https://mixinsalam.liara.run/basalam/client/get-user-access-token/&state=management-test';
+    const basalamUrl = 'https://basalam.com/accounts/sso?client_id=1083&scope=vendor.profile.read%20vendor.product.write%20customer.profile.read%20vendor.product.read&redirect_uri=https://mixinsalam.onrender.com/basalam/client/get-user-access-token/&state=management-test';
     console.log('Opening Basalam URL:', basalamUrl);
     const newWindow = window.open(basalamUrl, '_blank');
     

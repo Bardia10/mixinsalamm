@@ -22,7 +22,7 @@ export const basalamApi = {
       console.log('=== Basalam Products Request Debug ===');
       console.log('Vendor ID:', vendorId);
       console.log('Access Token:', credentials.access_token);
-      console.log('Full Request URL:', `https://mixinsalam.liara.run/products/my-basalam-products/${vendorId}`);
+      console.log('Full Request URL:', `https://mixinsalam.onrender.com/products/my-basalam-products/${vendorId}`);
       console.log('Request Headers:', {
         Authorization: `Bearer ${credentials.access_token}`,
         'Content-Type': 'application/json',

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const BASE_URL = 'https://mixinsalam.liara.run'
+export const BASE_URL = 'https://mixinsalam.onrender.com'
 
 export const api = axios.create({
   baseURL: BASE_URL,
